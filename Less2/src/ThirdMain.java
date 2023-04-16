@@ -13,9 +13,10 @@ public class ThirdMain {
 //        catch (Throwable ex) {
 //            System.out.println("Что-то пошло не так...");
 //        }
-        catch (NullPointerException ex) {
-            System.out.println("Указатель не может указывать на null!");
-        } catch (IndexOutOfBoundsException ex) {
+//        catch (NullPointerException ex) {
+//            System.out.println("Указатель не может указывать на null!");
+//        }
+        catch (IndexOutOfBoundsException ex) {
             System.out.println("Массив выходит за пределы своего размера!");
         }
     }
