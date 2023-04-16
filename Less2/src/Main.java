@@ -19,6 +19,9 @@ public class Main {
     }
 
 
+
+
+
     private static void showInputOfFloat(float input) {
         System.out.println(input);
     }
